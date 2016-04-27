@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hrunogotchi</title>
+    <link rel="stylesheet" type="text/css" href="/index.css">
+    <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+    <script>
+        createjs.Sound.registerSound("Audio/pig1.mp3", "Pig");
+
+        setInterval(function () {
+            createjs.Sound.play("Pig");
+        }, 20000);
+    </script>
+</head>
+<body>
+    <div id="speech-log">Click to talk with me</div>
+    <embed id="pig" src="Images/default.svg" />
+    Сытость: <progress id="satiety" value="50" max="100"></progress>
+    Энергия: <progress id="energy" value="50" max="100"></progress>
+    Настроение: <progress id="mood" value="50" max="100"></progress>
+    <button id="new-game">New game</button>
+    <div id="game-over">
+        <div id="game-over__phrase">
+            I thought you would take care of me...
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>

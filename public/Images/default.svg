@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300px" height="300px">
+    <rect width="300" height="300" fill="skyblue"/>
+    <g id="pig">
+        <g id="pig__body">
+            <ellipse rx="100" ry="50" cx="150" cy="150" fill="pink"/>
+            <defs>
+                <polygon id="pig-body__leg" points="0,0 0,30 5,25 10,30 10,0" fill="pink"/>
+            </defs>
+            <use href="#pig-body__leg" x="80" y="180"/>
+            <use href="#pig-body__leg" x="100" y="185"/>
+            <use href="#pig-body__leg" x="180" y="180"/>
+            <use href="#pig-body__leg" x="200" y="185"/>
+            <path d="M320,115 C162,118 377,84 237,128 " fill="none" stroke-width="4" stroke="pink"/>
+        </g>
+        <g id="pig__head">
+            <g id="pig-head__hair">
+                <polygon points="70,5 90,41 136,48 103,80 111,126
+                70,105 29,126 36,80 5,48 48,41"/>
+            </g>
+            <g id="pig-head__left-ear">
+                <polygon points="20,25 15,15 0,18 18,5 30,25" transform="translate(30,40)" fill="pink"/>
+            </g>
+            <g id="pig-head__right-ear">
+                <polygon points="10,25 15,15 30,18 12,5 0,25" transform="translate(80,40)" fill="pink"/>
+            </g>
+            <circle r="40" cx="70" cy="100" fill="pink"/>
+            <g id="pig-head__left-eye">
+                <ellipse rx="10" ry="17" cx="60" cy="80" fill="white" />
+                <ellipse rx="5" ry="7" cx="60" cy="80" fill="blue" />
+                <ellipse rx="3" ry="5" cx="60" cy="80" fill="black" />
+            </g>
+            <g id="pig-head__right-eye">
+                <ellipse rx="10" ry="17" cx="80" cy="80" fill="white" />
+                <ellipse rx="5" ry="7" cx="80" cy="80" fill="blue" />
+                <ellipse rx="3" ry="5" cx="80" cy="80" fill="black" />
+            </g>
+            <g id="pig-head__nose">
+                <ellipse rx="12" ry="8" cx="70" cy="105" stroke="black" fill="pink" />
+                <ellipse rx="3" ry="3" cx="67" cy="105" stroke="black" fill="pink" />
+                <ellipse rx="3" ry="3" cx="73" cy="105" stroke="black" fill="pink" />
+            </g>
+            <g id="pig-head__mouth">
+                <path stroke="black" stroke-width="2" d="M 65,120 C 65,130 75,130 75,120" fill="none"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,24 @@
+{
+  "name": "webdev-tasks-7",
+  "version": "1.0.0",
+  "description": "Tamagochi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dodo888/webdev-tasks-7.git"
+  },
+  "author": "Vladimir Smirnov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dodo888/webdev-tasks-7/issues"
+  },
+  "homepage": "https://github.com/Dodo888/webdev-tasks-7#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4"
+  }
+}
